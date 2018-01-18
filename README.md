@@ -4,5 +4,5 @@ Container contains Last Debian + Homebridge + Plugins
 
 ## Plugins installed :
 - homebridge-fibaro-hc2
-- homebridge-netatmo --unsafe-perm
+- homebridge-netatmo
 - homebridge-http-accessory
