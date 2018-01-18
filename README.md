@@ -4,7 +4,7 @@
 # homebridge_synology
 Container contains Last Debian + Homebridge + Plugins
 
-## Plugins installed :
+# Plugins installed :
 - homebridge-fibaro-hc2
 - homebridge-netatmo
 - homebridge-http-accessory
