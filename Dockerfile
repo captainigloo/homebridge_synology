@@ -1,4 +1,4 @@
-FROM nodesource/stretch
+FROM nodesource/jessie
 ##################################################
 # Set environment variables                      #
 ##################################################
