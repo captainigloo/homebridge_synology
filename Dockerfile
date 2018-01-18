@@ -1,4 +1,4 @@
-FROM nodesource/jessie
+FROM nodesource/stretch
 ##################################################
 # Set environment variables                      #
 ##################################################
@@ -24,9 +24,10 @@ RUN alias ll='ls -alG'
 RUN npm install -g homebridge --unsafe-perm
 
 # depending on your config.json you have to add your modules here!
-RUN npm install -g homebridge-fibaro-hc2
+RUN npm install -g homebridge-fibaro-hc2 --unsafe-perm
 RUN npm install -g homebridge-netatmo --unsafe-perm
-RUN npm install -g homebridge-http-accessory
+RUN npm install -g homebridge-http-accessory --unsafe-perm
+
 #RUN npm install -g homebridge-philipshue --unsafe-perm
 #RUN npm install -g homebridge-ninjablock-temperature --unsafe-perm
 #RUN npm install -g homebridge-ninjablock-humidity --unsafe-perm
